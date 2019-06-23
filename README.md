@@ -9,6 +9,8 @@
 ## Metrics: (F0.5_score)
 * Due to the unbalanced distribution of classes, where training examples belonging to class "YES" are much more than examples belonging to class "No", we cannot use accuracy as a metric because if we make a naive prediction that all examples belong to class "Yes", this would give a very high accuracy while in fact we are mispredicting all the negative examples.
 * To tackle this problem, we shall use precision and recall or use Fbeta_score which is the harmonic mean of both precision and recall.
+* I used beta=0.5 to give precision more weight thus fulfilling my assumption.
+
 ## Notes:
 * An HTML version of the notebook is provided for viewing the project without need to install jupyter notebook.
 
