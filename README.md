@@ -12,7 +12,7 @@
 * I used beta=0.5 to give precision more weight thus fulfilling my assumption.
 
 ## Notes:
-* An HTML version of the notebook is provided for viewing the project without need to install jupyter notebook.
+* An HTML version of the notebook is provided for viewing the project locally without need to install jupyter notebook.
 
 ## Requirements:
 
